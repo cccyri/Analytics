@@ -1,0 +1,4 @@
+DataGetter logs into your VK account via API token, then proceeds to scrape all the data neeeded for the model from a community which you can specify, as a result, you get two
+files containing user friends' IDs and friendly ties for further graph construction
+GraphMaker formats data in a way that our model will be able to interpretate
+The last file uses data and DLG to predict sexes
